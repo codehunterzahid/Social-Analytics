@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.843);
+    overflow: hidden;
+}
+.container{
+    margin: 20px 20px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.spn{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+.para{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para span{
+    color: rgba(251, 130, 150, 0.824);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+th:nth-last-child(4){
+    background-color: rgb(223, 127, 127);
+}
+th:nth-last-child(3){
+    background-color: salmon;
+}
+th:nth-last-child(2){
+    background-color: rgb(119, 238, 119);
+}
+th:nth-last-child(1){
+    background-color: rgb(131, 131, 244);
+}
+th{
+    color: blue;
+    font-weight: bolder;
+    padding: 20px 81px;
+    border: 1px solid white;
+}
+.t-h{
+    color: rgba(241, 81, 81, 0.943);
+    
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+td{
+    color: white;
+    padding: 20px 80px;
+}
+.spn-tr{
+    background-color: rgba(0, 0, 0, 0.49);
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 224, 133);
+    transition: all ease 0.5s;
+}
+a:hover{
+    color: green;
+}
+p{
+    padding-top: 10px;
+    color: white;
+}
