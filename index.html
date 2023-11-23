@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Social-Analytics</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
   <div class="container">
     <h1 class="heading">My <span class="spn">Social Media</span> Analytics</h1>
     <p class="para">This Analytical Table Created by <span>MUHAMMAD ZAHID</span></p>
 
-    <table>
+    
+    <div class="btns">
+        <button id="hide1" type="button" onclick="myFunction()">Hide</button>
+        <button id="show" style="display:none;" type="button" onclick="myFunction1()">Show</button>
+    </div>
+
+    <div>
+    <table id="hide">
         <thead>
             <tr>
                 <th>Sites</th>
@@ -47,6 +55,8 @@
             </tr>
         </tbody>
     </table>
+
+</div>
 
 
     <footer>
